@@ -1,16 +1,8 @@
-# Wilfredo Vazquez
-# Date: 
-# This is the starter file for CSC141 lab day 3
+# Ariana Fayehun
+# Date: 9/3/24
+# This completes the challenge for "lab3Starter"
 
 """
-Utilizing your knowledge of python so far...
-Come up with a way to print an introduction message
-that is specialized with user input
-
-1. You will ensure that you have left 3 comments at the top of your file
-    # Your Name
-    # Date
-    # brief description of what this file does
 
 2. You must prompt the user to supply you their name, age,
     and their major to complete the introduction message
@@ -25,8 +17,13 @@ that is specialized with user input
 
 """
 
+
 print("To generate your introduction, I will need some information from you...")
-print()
+name = input("What's your name? ")
+age = input("How old are you? ")
+major = input("What is your major? ")
 
+print("Thank you for providing that information!")
 
+print(f"| {name.title()}'s Inputted Information! |\n--------------------\nUser's Name: {name.title()}\nUser's Age: {age.title()}\nUser's Major: {major.title()}\n--------------------")
 
